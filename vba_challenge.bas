@@ -1,5 +1,5 @@
 Attribute VB_Name = "Module1"
-Sub CreditCard()
+Sub summarise_data()
 
     '1Declare all my variables
     '2Setup workbook loop
@@ -66,7 +66,7 @@ Sub CreditCard()
         'Format cell/column number format to %
         ws.Columns("K").NumberFormat = "0.00%"
         ws.Range("Q2:Q3").NumberFormat = "0.00%"
-        
+        ws.Columns("J").NumberFormat = "0.00"
         
         'Opening values for variables
         
